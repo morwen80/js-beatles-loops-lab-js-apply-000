@@ -21,25 +21,15 @@ function johnLennonFacts(facts){
   return newfacts;
 }
 
-// function johnLennonFacts(fact){
-//  const facts = [ ];
-// var j = 0;
-// while(array.length < facts.length) {
-//   array.push(facts[j] + "!!!");
-//   j++
-//   return array;
-// }
 
+function iLoveTheBeatles(number) {
+  var array = [];
+  do {
+    array.push("I love the Beatles!");
+    number += 1;
+  }
 
-
-// function iLoveTheBeatles(number) {
-//   var array = [];
-//   do {
-//     array.push("I love the Beatles!");
-//     number += 1;
-//   }
-//
-//   while(number < 15) {
-//     return array;
-//   }
-// }
+  while(number < 15) {
+    return array;
+  }
+}
